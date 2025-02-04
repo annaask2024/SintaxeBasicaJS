@@ -34,9 +34,9 @@ console.log(variavel3);
 var escopoGlobal = "Global";
 console.log(escopoGlobal);
 
-function escopoLocal() {
-    var escopoLocalInterno = "Local";
-    console.log(escopoLocalInterno);
+function escopoLocal() { // escopo local
+    var escopoLocalInterno = "Local"; // escopo local
+    console.log(escopoLocalInterno); // acessa a variavel local
 }
 escopoLocal();
 
